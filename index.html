@@ -3,89 +3,384 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iyunga Technical Secondary School | Mbeya</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Iyunga Secondary School - Quality education for a better future.">
+    <title>Iyunga Secondary School | Home</title>
+    <link rel="stylesheet" href="CSS/Style.css">
 </head>
 <body>
-    <!-- Header / Navigation -->
-    <header>
-        <h1>Iyunga Technical Secondary School</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#academics">Academics</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
+
+    <!-- Header & Navigation Section -->
+    <header class="site-header">
+        <div class="container">
+            <div class="logo-area">
+                <h1>IYUNGA SECONDARY SCHOOL</h1>
+                <p>Quality Education for a Better Future</p>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#academics">Academics</a></li>
+                    <li><a href="#facilities">Facilities</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <hr>
-
-    <!-- Hero / Intro Section -->
+    <!-- Main Content -->
     <main>
-        <section id="about">
-            <h2>Welcome to Iyunga Technical Secondary School</h2>
-            <img src="Iyunga.jpg.jpg" alt="Iyunga Technical Secondary School">
-
-            <p>A premier technical secondary school based in Mbeya, Tanzania. We provide quality secondary education combined with practical technical skills to prepare future innovators and leaders.</p>
+        
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Welcome to Iyunga Secondary School</h2>
+                <p>We prepare students for academic excellence, leadership, and responsible citizenship.</p>
+                <a href="#about" class="btn">Learn More</a>
+            </div>
         </section>
 
-        <hr>
-
-        <!-- Academic Programs Section -->
-        <section id="academics">
-            <h2>Advanced Level Combinations</h2>
-            <ul>
-                <li>
-                    <h3>PCM</h3>
-                    <p>Physics, Chemistry, and Advanced Mathematics</p>
-                </li>
-                <li>
-                    <h3>PCB</h3>
-                    <p>Physics, Chemistry, and Biology</p>
-                </li>
-                <li>
-                    <h3>PCoM</h3>
-                    <p>Physics, Computer Science, and Advanced Mathematics</p>
-                </li>
-            </ul>
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Iyunga Secondary School is committed to providing quality education in a supportive learning environment. Our dedicated teachers and modern facilities help students achieve their full potential.</p>
+                        <p>We focus on academic excellence, discipline, and holistic development.</p>
+                        <a href="#academics" class="btn">Our Programmes</a>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZiHj4jjgEsdeNHqLsj5L0SjKdWnUKTzXLWGWFgBVu6g&s=10" alt="Iyunga Secondary School buildings">
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <hr>
+        <!-- Academic Section -->
+        <section id="academics" class="academics">
+            <div class="container">
+                <h2>Academic Programmes</h2>
+                <ul class="program-list">
+                    <li>Ordinary Level (Form I - Form IV)</li>
+                    <li>Advanced Level (Form V - Form VI)</li>
+                    <li>Science and Arts Combinations</li>
+                    <li>Extracurricular Activities</li>
+                </ul>
+            </div>
+        </section>
+        <!-- =========================
+     FACILITIES SECTION
+========================= -->
+<section id="facilities" class="facilities">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Our Facilities</h2>
+            <p>
+                Iyunga Secondary School provides a supportive learning
+                environment with facilities that support academic,
+                technological, sporting and personal development.
+            </p>
+        </div>
+
+        <div class="facilities-grid">
+
+            <!-- Classroom -->
+            <div class="facility-card">
+                <div class="facility-image">
+                    <img 
+                        src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=900&q=80"
+                        alt="School Classroom">
+                </div>
+
+                <div class="facility-content">
+                    <h3>Modern Classrooms</h3>
+                    <p>
+                        Our classrooms provide a clean, comfortable and
+                        supportive environment for effective teaching and
+                        learning.
+                    </p>
+                    <a href="#contact" class="facility-btn">Learn More</a>
+                </div>
+            </div>
+
+
+            <!-- Laboratory -->
+            <div class="facility-card">
+                <div class="facility-image">
+                    <img 
+                        src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=900&q=80"
+                        alt="Science Laboratory">
+                </div>
+
+                <div class="facility-content">
+                    <h3>Science Laboratory</h3>
+                    <p>
+                        Students have opportunities to develop practical
+                        science skills through experiments and laboratory
+                        activities.
+                    </p>
+                    <a href="#contact" class="facility-btn">Learn More</a>
+                </div>
+            </div>
+
+
+            <!-- Library -->
+            <div class="facility-card">
+                <div class="facility-image">
+                    <img 
+                        src="https://images.unsplash.com/photo-1568667256549-094345857637?auto=format&fit=crop&w=900&q=80"
+                        alt="School Library">
+                </div>
+
+                <div class="facility-content">
+                    <h3>School Library</h3>
+                    <p>
+                        Our library provides students with a quiet space
+                        for reading, research, revision and independent
+                        learning.
+                    </p>
+                    <a href="#contact" class="facility-btn">Learn More</a>
+                </div>
+            </div>
+
+
+            <!-- Computer Laboratory -->
+            <div class="facility-card">
+                <div class="facility-image">
+                    <img 
+                        src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=900&q=80"
+                        alt="Computer Laboratory">
+                </div>
+
+                <div class="facility-content">
+                    <h3>Computer Laboratory</h3>
+                    <p>
+                        Our computer laboratory supports digital learning
+                        and helps students develop important ICT skills.
+                    </p>
+                    <a href="#contact" class="facility-btn">Learn More</a>
+                </div>
+            </div>
+
+
+            <!-- Sports -->
+            <div class="facility-card">
+                <div class="facility-image">
+                    <img 
+                        src="https://images.unsplash.com/photo-1526232761682-d26e03ac148e?auto=format&fit=crop&w=900&q=80"
+                        alt="School Sports Ground">
+                </div>
+
+                <div class="facility-content">
+                    <h3>Sports Ground</h3>
+                    <p>
+                        Students participate in football, athletics and
+                        other physical activities that promote teamwork
+                        and healthy living.
+                    </p>
+                    <a href="#contact" class="facility-btn">Learn More</a>
+                </div>
+            </div>
+
+
+            <!-- Dormitory -->
+            <div class="facility-card">
+                <div class="facility-image">
+                    <img  src="https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=900&q=80"
+                        alt="Student Accommodation">
+                </div>
+
+                <div class="facility-content">
+                    <h3>Student Accommodation</h3>
+                    <p>
+                        Student accommodation provides a suitable
+                        environment for learners who stay at school.
+                    </p>
+                    <a href="#contact" class="facility-btn">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+       
+
 
         <!-- Contact Section -->
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p><strong>Location:</strong> Mbeya, Tanzania</p>
-            
-            <h3>Send a Message</h3>
-            <form action="#" method="post">
-                <p>
-                    <label for="name">Full Name:</label><br>
-                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
-                </p>
-                <p>
-                    <label for="email">Email Address:</label><br>
-                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
-                </p>
-                <p>
-                    <label for="message">Message:</label><br>
-                    <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
-                </p>
-                <p>
-                    <button type="submit">Submit Message</button>
-                </p>
+        <div class="custom-form-container">
+            <h2 class="form-title">Student Registration Form</h2>
+        
+            <form id="studentForm">
+        
+                <div class="form-group-block">
+                    <label for="fullname">
+                        Full Name <span class="required-star">*</span>
+                    </label>
+        
+                    <input
+                        type="text"
+                        id="fullname"
+                        name="fullname"
+                        placeholder="Enter your name"
+                        required
+                    >
+                </div>
+        
+                <div class="form-group-block">
+                    <label for="birthdate">
+                        Date of Birth <span class="required-star">*</span>
+                    </label>
+        
+                    <input
+                        type="date"
+                        id="birthdate"
+                        name="birthdate"
+                        required
+                    >
+                </div>
+        
+                <div class="form-group-block">
+                    <label for="phone">
+                        Phone Number <span class="required-star">*</span>
+                    </label>
+        
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="e.g., +255712345678"
+                        required
+                    >
+                </div>
+        
+                <div class="form-group-block">
+                    <label for="gender">
+                        Gender <span class="required-star">*</span>
+                    </label>
+        
+                    <select id="gender" name="gender" required>
+                        <option value="">Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+        
+                <div class="form-group-block">
+                    <label for="studentClass">
+                        Class <span class="required-star">*</span>
+                    </label>
+        
+                    <select id="studentClass" name="studentClass" required>
+                        <option value="">Select Class</option>
+                        <option value="Form I">Form I</option>
+                        <option value="Form II">Form II</option>
+                        <option value="Form III">Form III</option>
+                        <option value="Form IV">Form IV</option>
+                        <option value="Form V">Form V</option>
+                        <option value="Form VI">Form VI</option>
+                    </select>
+                </div>
+        
+                <div class="form-group-block">
+                    <label for="email">
+                        Email Address <span class="required-star">*</span>
+                    </label>
+        
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="example@email.com"
+                        required
+                    >
+                </div>
+        
+                <div class="form-group-block">
+                    <label for="password">
+                        Password <span class="required-star">*</span>
+                    </label>
+        
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter your password"
+                        required
+                    >
+                </div>
+        
+                <button type="submit" class="form-submit-btn" id="submitBtn">
+                    Add Student
+                </button>
+        
             </form>
+        </div>
+        <section class="students" id="students">
+            <div class="student-search">
+                <input
+                    type="text"
+                    id="studentSearch"
+                    placeholder="Search by Student ID or Name..."
+                >
+            </div>
+            
+
+            <h2 class="students-title">Student Information</h2>
+        
+            <p class="students-subtitle">
+                View and manage registered student information.
+            </p>
+        
+            <table class="student-table">
+        
+                <thead>
+                    <tr>
+                        <th>Student ID</th>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>Age</th>
+                        <th>Class</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+        
+                <tbody id="studentTableBody">
+                    <!-- JavaScript will display students here -->
+                </tbody>
+        
+            </table>
+        
         </section>
+        
+          
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                
+                <div class="contact-details">
+                    <p><strong>Address:</strong> Iyunga, Mbeya, Tanzania</p>
+                    <p><strong>Phone:</strong> <a href="tel:+255000000000">+255 000 000 000</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:info@iyungasecondary.ac.tz">info@iyungasecondary.ac.tz</a></p>
+                </div>
+            </div>
+        </section>
+
     </main>
 
-    <hr>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Iyunga Technical Secondary School. All rights reserved.</p>
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Iyunga Secondary School. All rights reserved.</p>  
+        </div>
+        <script src="CSS/Script.js"></script>
     </footer>
-    <script src="script.js"></script>
-
 </body>
 </html>
